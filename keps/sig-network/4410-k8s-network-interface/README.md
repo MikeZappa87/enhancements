@@ -35,17 +35,23 @@ and accommodate advanced functionalities and potential areas for expansion.
 ### Goals
 
 1. Design a cool looking t-shirt
-2. Design and implement the KNI-API
-3. Provide documentation, examples, troubleshooting and FAQ's for KNI.
-   * we should provide a example network runtime
-4. Provide an API that is flexible for experimentation and opinionated use cases
-   * example extradata map[string] string
-5. Provide integration with on premise or cloud systems to provide network status
-6. Provide an API that provides networks available on the node
-7. Determine the reference implementation
-8. Establish feature parity with current [ADD, DEL]
-9. Decouple Node and Pod network setup
-10. Ensure that the network runtime is consolidated inside of a Pod
+2. Make "networks" and their configuration discoverable via the Kubernetes API
+3. Provide highly focused networking APIs that are composable
+3. Support multi-network attachment for `Pods`
+4. Support `Pod` to `Pod` network semantics with Kubernetes API specification
+5. Enable egress (Telcos/others need to strongly define/control traffic routes)
+6. Provide APIs that are flexible, encompassing both "core" and "extended" features
+7. Provide APIs with extension points for implementation-specific behaviors
+8. Provide integration with on premise or cloud systems to provide network status
+9. Provide a reference implementation
+10. Establish feature parity with current [ADD, DEL]
+11. Decouple Node and Pod network setup
+12. Ensure that the network runtime is consolidated inside of a Pod
+
+> **Note**: The concepts of "core" and "extended" features is inspired by the
+> Gateway API project. "Core" features are something every implementation MUST
+> support. "Extended" features are things that implementations MAY support (but
+> at least 2 known implementations actively need).
 
 ### Non-Goals
 
