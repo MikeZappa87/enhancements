@@ -54,8 +54,13 @@ and accommodate advanced functionalities and potential areas for expansion.
 
 ## Proposal
 
-
-The proposal of this KEP is to design and implement the KNI-API and make necessary changes to the CRI-API and container runtimes. The scope should be kept to a minimum and we should target feature parity. 
+> **Note**: You'll notice that much of the proposal is currently missing. It is
+> our intention to fill it (and all the other sections) in as part of later
+> iterations, but for these early iterations we want to make sure we're laser
+> focused on building consensus among the community on the "What" and "Why",
+> without yet focusing on the "How". So for now we're just focused on user
+> stories to support the "Why", and later PRs will propose the actual
+> implementation to accomplish it.
 
 ### User Stories (Optional)
 
