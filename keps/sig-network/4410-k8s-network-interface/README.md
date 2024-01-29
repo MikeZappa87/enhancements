@@ -35,7 +35,7 @@ and accommodate advanced functionalities and potential areas for expansion.
 ### Goals
 
 1. Design a cool looking t-shirt
-2. Make "networks" and their configuration discoverable via the Kubernetes API
+2. Make it possible to specify networks and network configurations via the Kubernetes API, to some reasonable degree
 3. Provide highly focused networking APIs that are composable
 3. Support multi-network attachment for `Pods`
 4. Support `Pod` to `Pod` network semantics with Kubernetes API specification
