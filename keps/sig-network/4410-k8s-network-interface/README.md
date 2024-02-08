@@ -42,7 +42,7 @@ and accommodate advanced functionalities and potential areas for expansion.
 ### Goals
 
 - Design a cool looking t-shirt
-- Provide Kubernetes APIs for the creation, configuration and management of interfaces
+- Provide Kubernetes APIs for the creation, configuration and management of networks and interfaces
 - Provide documentation, examples, troubleshooting and FAQ's for KNI.
 - KNI should provide the API's required to establish feature parity with current CNI [ADD, DEL]
 - Handle support levels like Gateway API (e.g. "core" and "extended")
