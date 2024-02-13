@@ -100,6 +100,10 @@ inspektorgadget), I would like to be able to see the network interfaces of a
 `Pod` via the Kubernetes API so that I can attach TC/XDP network programs to
 those interfaces based on knowing the Pod name.
 
+#### Story 5
+
+As a cluster administrator, I need the ability to configure multiple network runtimes (each to fit specific needs) which run on my cluster, and the ability for cluster operators to diagnose the status of their network runtimes.
+
 ### Notes/Constraints/Caveats
 
 Additional Information/Diagrams: https://docs.google.com/document/d/1Gz7iNtJNMI-zKJhaOcI3aflPCx3etJ01JMxzbtvruKk/edit?usp=sharing
