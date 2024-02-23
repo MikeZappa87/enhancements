@@ -75,6 +75,12 @@ The proposal of this KEP is to design and implement the KNI-API and make necessa
 
 We are constantly adding these user stories, please join the community sync to discuss. 
 
+#### Story 1
+
+"As a Kubernetes admin, I want to validate Pod's network periodically, so that I can utilize KNI that checks connectivity through CHECK CNI command and do recover method (e.g. restart a pod), if the Pod's network is changed"
+
+"As a Kubernetes user, I want to observe Pod network and keep the Pod network as expected, to prevent network attacker's attack (e.g. suddenly the unexpected route is added)."
+
 ### Notes/Constraints/Caveats
 
 ## Constraints
