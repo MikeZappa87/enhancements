@@ -75,6 +75,16 @@ The proposal of this KEP is to design and implement the KNI-API and make necessa
 
 We are constantly adding these user stories, please join the community sync to discuss. 
 
+#### Gateway API related user stories
+
+As a user of `Gateways` (from [Gateway API]) I want to be able to specify and
+see what networks a `Gateway` resource is accessible on (e.g. I would like to be
+able to define network scopes such as "public", "private", "cluster", e.t.c.).
+See [GEP-1651].
+
+[Gateway API]:https://github.com/kubernetes-sigs/gateway-api
+[GEP-1651]:https://gateway-api.sigs.k8s.io/geps/gep-1651/
+
 ### Notes/Constraints/Caveats
 
 ## Constraints
