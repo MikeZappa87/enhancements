@@ -1,0 +1,26 @@
+title: DRA Pod Resource Configuration After Sandbox Creation
+kep-number: NNNN
+authors:
+  - @mikezappa87
+owning-sig: sig-network
+participating-sigs:
+  - TBD
+status: provisional
+creation-date: 2026-10-23
+reviewers:
+  - TBD
+approvers:
+  - TBD
+see-also:
+  - /keps/sig-node/4381-dra-structured-parameters
+  - /keps/sig-node/5304-dra-attributes-downward-api
+stage: alpha
+# No release milestone has been selected.
+feature-gates:
+  - name: DRAPodSandboxConfiguration
+    components:
+      - kubelet
+# Disablement requires draining dependent pods and completing cleanup first.
+disable-supported: true
+# Metric names remain TBD pending implementation and PRR.
+metrics: []
